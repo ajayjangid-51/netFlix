@@ -1,0 +1,7 @@
+body {
+  /* background-color: rgba(0, 0, 0, 0.884); */
+  background-color: black;
+  /* color: firebrick; */
+  overflow: hidden;
+  overflow-y: scroll;
+}

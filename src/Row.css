@@ -1,0 +1,67 @@
+.row {
+  /* padding-left: 20px; */
+  color: white;
+  /* border: 2px solid red; */
+  margin: 20px;
+  /* overflow: scroll; */
+  overflow: hidden;
+  /* over */
+}
+
+.row__posters {
+  /* overflow-x: scroll; */
+  /* width: 100%; */
+  /* border: 2px solid black; */
+
+  display: flex;
+  /* overflow: hidden; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* as overflow-y: hidden; apnne esliy kiya hai q ki onhover-scale hone ki vajah se overflow-y bhi ho raha hai. thus toh isliy apnne overflow-y: hidden; kr diya hai. */
+  /* padding: 100px; */
+  padding: 10px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.youtubi {
+  /* border: 1px solid red; */
+  /* z-index: 1000; */
+  margin: auto;
+  /* border: 2px solid blue; */
+}
+
+.imgi {
+  /* width: 200px;
+  height: 400px; */
+  object-fit: contain;
+  /* 💡Tip: as ess object-fit:contain; se image ki aspect-ratio bani rhti hai mtlb apnko image ki sirf ek cheez width ya height define krni hoti hai  and uss ek-cheez k define k according dusri cheez aspect-ratio k according apne aap set ho jati hai , thus toh mtlb apni image ek-dam mast way meh bina blur , rush huye rhti hai. */
+  /* 🌟 as toh apn object-fit sirf aur mostly image k liyeh hi use krteh hai. */
+  width: 110px;
+  /* height: 200px; */
+  cursor: pointer;
+  margin-left: 1vw;
+  transition: transform 500ms;
+  /* as transition apn hover-effect hover-effect pe hi kaam krta hai , */
+}
+
+.imgi:hover {
+  /* transform: scale(2); */
+  transform: scale(1.25);
+  /* opacity: 0.5; */
+  opacity: 1;
+}
+
+.largirow {
+  /* width: 400px; */
+  /* height: 400px; */
+  height: 250px;
+  transition: transform 1000ms;
+  /* border: 2px solid yellow; */
+}
+
+.largirow:hover {
+  transform: scale(1.30);
+}

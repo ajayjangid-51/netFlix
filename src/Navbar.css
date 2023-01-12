@@ -1,0 +1,30 @@
+.navbar {
+  color: white;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: 1px solid white; */
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  align-items: center;
+  transition-timing-function: ease-in;
+  transition: all 1s;
+}
+
+.nav_black {
+  background: black;
+}
+
+.navbar_logo {
+  object-fit: contain;
+  /* width: 10px; */
+  height: 60px;
+}
+
+.navbar_hamicon {
+  height: 40px;
+  object-fit: contain;
+  border-radius: 5px;
+}
